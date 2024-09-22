@@ -1,0 +1,28 @@
+{
+  "name": "lenv",
+  "version": "0.1.0",
+  "description": "Manage symlinks from a root file to multiple destinations",
+  "author": "Ty Hopp",
+  "engines": {
+    "node": ">=20"
+  },
+  "type": "module",
+  "main": "main.mjs",
+  "files": [
+    "lenv-wasip1-0.1.7.wasm",
+    "main.mjs"
+  ],
+  "bin": {
+    "lenv": "main.mjs"
+  },
+  "keywords": [
+    "symlink",
+    "env",
+    "monorepo",
+    "cli",
+    "zero-dependency",
+    "wasm",
+    "wasi"
+  ],
+  "license": "MIT"
+}
