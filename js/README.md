@@ -16,7 +16,7 @@ project/a/.env
 project/b/.env
 ```
 
-3. Execute `npx lenv-js@latest link` to create symlinks.
+3. Execute `npx lenv-js@latest link` to create symlinks
 
 Use the `-help` flag to see all usage instructions.
 
