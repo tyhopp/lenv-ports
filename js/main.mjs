@@ -1,3 +1,5 @@
+#!/usr/bin/env node
+
 import { readFile } from 'node:fs/promises';
 import { WASI } from 'node:wasi';
 import { argv, env } from 'node:process';
