@@ -1,4 +1,4 @@
-# lenv
+# lenv-js
 
 Manage symlinks from a root file to multiple destinations.
 
@@ -16,16 +16,22 @@ project/a/.env
 project/b/.env
 ```
 
-3. Execute `npx lenv@latest link` to create symlinks.
+3. Execute `npx lenv-js@latest link` to create symlinks.
 
 Use the `-help` flag to see all usage instructions.
 
 ## WASI experimental warning
 
-The [Node.js implementation](https://nodejs.org/api/wasi.html) of the [WebAssembly System Interface (WASI)](https://wasi.dev/) is experimental. This module uses the WASI binary of [lenv](https://github.com/tyhopp/lenv), so you will see an experimental warning when running this module's bin scripts.
+The [Node.js implementation](https://nodejs.org/api/wasi.html) of the [WebAssembly System Interface (WASI)](https://wasi.dev/) is experimental. This module uses the WASI binary of [lenv](https://github.com/tyhopp/lenv) (which is written in Go), so you will see an experimental warning when running this module's bin scripts.
 
-You can silence these warnings with the `--no-warnings` flag:
+You can silence these warnings for your shell session by executing:
 
 ```
-npx --no-warnings lenv@latest link
+export NODE_NO_WARNINGS=1
+```
+
+Or for single command invocation:
+
+```
+NODE_NO_WARNINGS=1 npx lenv-js@latest link
 ```
