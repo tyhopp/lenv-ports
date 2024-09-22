@@ -1,6 +1,6 @@
 {
   "name": "lenv-js",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Manage symlinks from a root file to multiple destinations",
   "author": "Ty Hopp",
   "engines": {
