@@ -16,7 +16,7 @@ project/a/.env
 project/b/.env
 ```
 
-3. Execute `npm install --save-dev lenv-js` to install lenv
+3. Execute `npm install --save-dev lenv-js` to install lenv (or with another package manager)
 4. Create a run script in `package.json`:
 
 ```json
