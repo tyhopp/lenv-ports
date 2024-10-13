@@ -1,0 +1,16 @@
+[package]
+name = "lenv-rs"
+version = "0.1.0"
+edition = "2021"
+include = [
+    "Cargo.toml",
+    "src/"
+]
+
+[dependencies]
+wasmtime = "25.0.1"
+wasmtime-wasi = "25.0.1"
+
+[[bin]]
+name = "lenv-rs"
+path = "src/main.rs"
