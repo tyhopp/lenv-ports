@@ -6,5 +6,6 @@ Each port uses [WebAssembly System Interface (WASI)](https://wasi.dev/) binary o
 
 ## Available ports
 
-- [JavaScript](https://www.npmjs.com/package/lenv-js)
-- [Python](https://pypi.org/project/lenv-py)
+- [JavaScript](js/README.md), published to [npm](https://www.npmjs.com/package/lenv-js)
+- [Python](py/README.md), published to [PyPI](https://pypi.org/project/lenv-py)
+- [Rust](rs/README.md), TBD
