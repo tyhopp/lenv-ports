@@ -16,6 +16,7 @@ project/a/.env
 project/b/.env
 ```
 
-3. TBD
+3. Execute `cargo install lenv-rs` to install lenv
+4. Execute `lenv link` to create symlinks
 
 Use the `-help` flag to see all usage instructions.
