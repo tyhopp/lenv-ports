@@ -19,8 +19,6 @@ keywords = [
     "env",
     "monorepo",
     "cli",
-    "zero-dependency",
-    "wasm",
     "wasi"
 ]
 categories = [
