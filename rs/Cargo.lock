@@ -836,7 +836,7 @@ checksum = "884e2677b40cc8c339eaefcb701c32ef1fd2493d71118dc0ca4b6a736c93bd67"
 
 [[package]]
 name = "lenv-rs"
-version = "0.1.0"
+version = "0.1.1"
 dependencies = [
  "wasmtime",
  "wasmtime-wasi",
