@@ -1,10 +1,32 @@
 [package]
 name = "lenv-rs"
 version = "0.1.0"
+authors = [
+    "Ty Hopp"
+]
+description = "Manage symlinks from a root file to multiple destinations"
 edition = "2021"
+license = "MIT"
 include = [
     "Cargo.toml",
+    "LICENSE",
+    "README.md",
     "src/"
+]
+repository = "https://github.com/tyhopp/lenv-ports"
+keywords = [
+    "symlink",
+    "env",
+    "monorepo",
+    "cli",
+    "zero-dependency",
+    "wasm",
+    "wasi"
+]
+categories = [
+    "command-line-utilities",
+    "config",
+    "development-tools"
 ]
 
 [dependencies]
@@ -12,5 +34,5 @@ wasmtime = "25.0.1"
 wasmtime-wasi = "25.0.1"
 
 [[bin]]
-name = "lenv-rs"
+name = "lenv"
 path = "src/main.rs"
