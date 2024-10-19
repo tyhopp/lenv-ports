@@ -10,8 +10,8 @@ Run these commands in the `rs` directory:
 4. If no crates.io token on hand, generate one in the web app
 5. `cargo login`
 6. Increment the version in `Cargo.toml`
-7. `cargo publish --dry-run` to see what will happen on publish
-8. `cargo publish` to publish the package
-9. `git add Cargo.toml Cargo.lock` to stage the version change
-10. `git commit -m "chore(rs): release X.X.X"` to commit the verison bump
+7. `git add Cargo.toml Cargo.lock` to stage the version change
+8. `git commit -m "chore(rs): release X.X.X"` to commit the verison bump
+9. `cargo publish --dry-run` to see what will happen on publish
+10. `cargo publish` to publish the package
 11. `git push` to push the release commit
